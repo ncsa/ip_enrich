@@ -1,0 +1,11 @@
+name: ip_enrich
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.12
+  - dnspython
+  - requests
+  - setuptools
+  - pip
+  - pip:
+      - ipwhois
